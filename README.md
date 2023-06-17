@@ -1,20 +1,17 @@
-# Lewis Hardie's T1A2 Portfolio Website
+# Lewis Hardie's Portfolio Website
 
 
 ## Link to Porfolio Website:
 My portfolio website can be found at this **[link](https://lewishardie.com "Lewis Hardie Website")**.
 
 ## Link to Github Repository:
-My github respository can be found at this **[link](https:www.github.com/lewbagz/lewishardie-T1A2 "Lewis Hardie Github")**.
-
-## Link to Video Presentation:
-My video presentation can be found at this **[link](https://vimeo.com/833310081?share=copy "Lewis Hardie Video Presentation")**.
-
-___
+My github respository can be found at this **[link](https:www.github.com/lewbagz/portfolio "Lewis Hardie Github")**.
 
 # Portfolio Website Description
 
-## Purpose
+# edit later 
+
+<!-- ## Purpose
 
 My full-stack website portfolio aims to showcase my skills, experience, and expertise as a web developer, serving as a comprehensive digital resume for potential employers, recruiters, and clients. With a visually appealing and user-friendly design, it effectively communicates my skills, projects, and accomplishments, leaving a positive and lasting impression on visitors.
 
@@ -213,5 +210,5 @@ liam_logo.png - Logo created for a friend of mine for his Fantasy Football Team
     - Lewis Hardie, (2014)
 
 shell.jpg - 3D shell I created for a university subject
-    - Lewis Hardie, (2013)
+    - Lewis Hardie, (2013) -->
 
