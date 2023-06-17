@@ -1,0 +1,66 @@
+.landing {
+
+    width: 100vw;
+    border-bottom: 2px solid $border;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    
+    .container {
+
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        .landing-container {
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        .landing-info.img{
+
+            margin-bottom: 1rem;
+            width: 100%;
+                     
+        }
+
+        .landing-info.text {
+            
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        
+            .landing-text-container {
+
+                margin-bottom: 1rem;
+                text-align: left;
+            
+            }
+            
+            .landing-action-container {
+            
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            
+                .contact-btn, .resume-btn {
+            
+                    a {
+                        min-width: 8rem;
+                        min-height: 3rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+            
+                    }
+                }
+                }
+            }
+        }
+    }
+}
+

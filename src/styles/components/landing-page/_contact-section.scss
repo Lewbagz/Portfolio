@@ -1,0 +1,198 @@
+// Contact header
+
+.contact-head {
+
+    width: 100vw;
+    border-bottom: 2px solid $border;
+
+    .container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        .head-text {
+            
+            h1 {
+                padding-bottom: 1rem;
+            }
+        }
+ 
+    }
+}
+
+// Contact Component for Landing Page and Contact Page
+.contact {
+    width: 100vw;
+    border-bottom: 2px solid $border;
+
+    h2 {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid $primary-color;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        .contact-title {
+            justify-content: left;
+        }
+
+        .contact-container {
+
+            width: 100%;
+
+            .contact-form-container {
+
+                margin-top: 2rem;
+                background: lighten($border, 65%);
+                padding: 1rem 1rem;
+                border-radius: 10px;
+                box-shadow: 0px 5px 10px rgba(0 0 0 / 0.3), 0 3px 15px 0 rgba(0, 0, 0, 0.2);
+
+            }
+           
+                .contact-form-input {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 1rem;
+                    padding: .5rem;
+                    margin: 0 auto;
+                    
+                    label {
+                        font-size: 1rem;
+                        font-weight: 400;
+
+                    }
+
+                    input, textarea {
+                        margin-top: .5rem;
+                        padding: .5rem;
+                        border: 1px solid $primary-color;
+                        border-radius: 4px;
+                        
+                    }
+                }   
+        }
+    }
+}
+
+.socials {
+
+    width: 100vw;
+    border-bottom: 2px solid $border;
+
+    a {
+        text-decoration: none;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+        
+    }
+    h3 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: .7rem;
+    }
+
+
+    .container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        .social-wrapper {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-between;
+
+           
+            .social-img {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 2rem;
+                border-bottom: 2px solid $primary-color;
+
+                .img-name {
+                    padding-top: 1rem;
+                }
+
+            }
+
+            .icon.click:hover {
+                transform: scale(1.2);
+            }
+
+
+
+            .social-wrapper-container {
+
+                display: flex;
+                flex-direction: column;
+
+
+                .social-wrapper-left {
+
+                    width: 100%;
+
+                    .location, .phone, .email {
+
+                        margin-bottom: 2rem;
+                            
+                        .location-container, .phone-container, a{
+                                
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+
+                            .location-text, .phone-text, .email-text {
+                                padding-left: 1rem;
+                                color: black;
+
+                            }
+                        }
+                    }
+                }
+                
+
+
+                .social-wrapper-right {
+
+                        width: 100%;
+                        
+
+                    .linkedin, .github, .twitter {
+
+                        margin-bottom: 2rem;
+                        
+
+                        a { 
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            width: auto;
+                            
+                            
+                            .linkedin-text, .github-text, .twitter-text {
+                                padding-left: 1rem;
+                                color: black;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

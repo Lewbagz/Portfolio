@@ -1,0 +1,34 @@
+// defaults
+@import 'components/default';
+@import 'components/colors';
+
+
+// navigation components
+@import 'components/header';
+@import 'components/footer';
+
+
+// media
+@import 'components/images';
+
+
+// main page components 
+@import 'components/landing-page/about-section';
+@import 'components/landing-page/landing-section';
+@import 'components/landing-page/projects-section';
+@import 'components/landing-page/blog-section';
+@import 'components/landing-page/contact-section';
+
+
+// Button Components
+@import 'components/buttons';
+
+
+// Animation
+@import 'components/animation';
+
+// Font
+@import 'components/font';
+
+// Mixins
+@import 'components/mixins';

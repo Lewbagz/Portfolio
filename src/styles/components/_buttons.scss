@@ -1,0 +1,104 @@
+
+
+.view-more-btn, .contact-btn, .resume-btn {
+
+    color: $primary-color;
+    
+    a {
+        width: 8rem;
+        min-height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        font-family: 'Geologica', sans-serif;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        border-radius: .5rem;
+        background: $secondary-color;
+        
+    }
+
+    a:hover {
+        background: $primary-color;
+        color: white;
+        transform: scale(1.1);
+        border: 2px solid $secondary-color;
+
+        
+    }
+
+    a:active {
+        
+        transition: .1s;
+        background: darken($secondary-color, 15%);
+        transform: translateY(2px);
+        border: 2px solid $primary-color;
+        color: $border;
+        
+
+    }
+}
+
+.resume-btn.main {
+
+    color: $primary-color;
+    height: 5rem;
+    
+    a {
+        width: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        font-family: 'Geologica', sans-serif;
+        color: $primary-color;
+        border: 2px solid $primary-color;
+        border-radius: 3rem;
+        background: $secondary-color;
+        
+    }
+
+    a:hover {
+        background: $primary-color;
+        color: white;
+        transform: scale(1.1);
+        border: 3px solid $secondary-color;
+
+        
+    }
+
+    a:active {
+        
+        transition: .1s;
+        background: darken($secondary-color, 15%);
+        transform: translateY(2px);
+        border: 2px solid $primary-color;
+        color: $border;
+        
+
+    }
+}
+
+
+.submit-btn {
+    
+    color: $primary-color;
+    width: 8rem;
+    min-height: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Geologica', sans-serif;
+    text-decoration: none;
+    color: $primary-color;
+    border-radius: .5rem;
+    border: 1px solid $primary-color;
+    background: $secondary-color;
+    
+}
+
+
